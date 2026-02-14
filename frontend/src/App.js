@@ -68,7 +68,7 @@ function HomePage({ content, amenities, faqs, updates, onAdminClick }) {
     <>
       {/* Navbar */}
       <nav className="navbar">
-        <a href="#" className="logo">MEGAPLEX</a>
+        <a href="/" className="logo">MEGAPLEX</a>
         <ul className="nav-links">
           <li><a href="#overview">Overview</a></li>
           <li><a href="#amenities">Amenities</a></li>
@@ -318,10 +318,10 @@ function HomePage({ content, amenities, faqs, updates, onAdminClick }) {
           </div>
           <div className="footer-section">
             <h4>Follow Us</h4>
-            <p><a href="#">Facebook</a></p>
-            <p><a href="#">Instagram</a></p>
-            <p><a href="#">Twitter</a></p>
-            <p><a href="#">LinkedIn</a></p>
+            <p><span>Facebook</span></p>
+            <p><span>Instagram</span></p>
+            <p><span>Twitter</span></p>
+            <p><span>LinkedIn</span></p>
           </div>
         </div>
         <div className="footer-bottom">
