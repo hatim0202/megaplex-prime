@@ -1,0 +1,12 @@
+{
+  "name": "megaplex-prime",
+  "version": "1.0.0",
+  "description": "Real Estate Website with Admin Panel",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "install": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
